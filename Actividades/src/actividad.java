@@ -82,6 +82,64 @@ public class actividad {
 		char caracter = (char)ascii;
 		
 		System.out.println(caracter); */
+	
+
+	/* -- ACTIVIDAD 8 --
+	  
+	  String letra=JOptionPane.showInputDialog("Inserte una letra");
+	 
+	char letracaracter = letra.charAt(0);
+	int ascii=(int)letracaracter;
+	
+	System.out.println(ascii); */
+
+		/* --ACTIVIDAD 9--
+		  double IVA = 0.21;
+		
+		String numero=JOptionPane.showInputDialog("Inserte el precio de su producto");
+		
+		double decimal = Double.parseDouble(numero);
+		double precio = decimal+(decimal * IVA);
+		
+		System.out.println("El precio final es" +precio);  */
+		
+		
+		/* --ACTIVIDAD 10--
+		 int numero = 1;
+	
+		
+		while(numero < 101) {
+			
+			System.out.println(numero);
+			numero++;
+		}
+		
+		 */
+		
+		/* --ACTIVIDAD 11--
+		
+		for(int i = 0; i < 101; i++) {
+			
+			System.out.println(i);
+			
+		}
+		
+		*/
+		
+		/* --ACTIVIDAD 12--
+		
+		for(int i = 1; i < 101; i++) {
+			
+			if(i%2 == 0 && i%3 == 0) {
+				
+				System.out.println(i);
+				
+			}
+		}
+		
+		*/
+		
+		
 	}
 
 }
