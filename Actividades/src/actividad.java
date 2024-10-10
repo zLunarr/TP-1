@@ -139,6 +139,79 @@ public class actividad {
 		
 		*/
 		
+		/* --ACTIVIDAD 13--
+		 
+		 
+		 int acum = 0;
+		
+		String numero=JOptionPane.showInputDialog("Cual es el numero de ventas");
+		
+		int ventas = Integer.parseInt(numero);
+		
+		
+		for(int i = 0; i < ventas; i++) {
+			
+			String precio=JOptionPane.showInputDialog("Cual es el precio de la venta numero" +i);
+			
+			int preciototal = Integer.parseInt(precio);
+			
+			acum = acum + preciototal;
+			
+		}
+		
+		System.out.println("El precio total de las ventas es " +acum);
+		
+		*/
+		
+		/* --ACTIVIDAD 14--
+		
+				
+		String a = JOptionPane.showInputDialog("Cual es el valor de a");
+		String b = JOptionPane.showInputDialog("Cual es el valor de b");
+		String c = JOptionPane.showInputDialog("Cual es el valor de c");
+		
+		float aint = Float.parseFloat(a);
+		float bint = Float.parseFloat(b);
+		float cint = Float.parseFloat(c);
+		
+		double discrim = Math.pow(bint, 2) - (4 * aint * cint);
+		
+		if(discrim >= 0) { 
+		
+		double one = (-bint + Math.sqrt(discrim)) / (2*aint);
+		double two = (-bint - Math.sqrt(discrim)) / (2*aint);
+		
+		System.out.println("X1 Es igual a " +one);
+		System.out.println("X2 es igual a " +two);
+		
+		}
+		
+		else {
+			
+			System.out.println("Da negativo tontin");
+			
+		}
+		 
+		 */
+		
+		
+		/* --ACTIVIDAD 15--
+		
+		 int numerovalido;
+	
+		do {
+			
+			String numero = JOptionPane.showInputDialog("Pon un numero");
+			numerovalido = Integer.parseInt(numero);
+			
+		}
+		
+		while(numerovalido < 0);
+		
+		System.out.println("Bien por fin pusiste un numero mayor o igual a 0 dios mio no era tan dificil, el numero que eligiste fue " +numerovalido);
+		
+ 
+		 */
 		
 	}
 
