@@ -213,6 +213,80 @@ public class actividad {
  
 		 */
 		
+		/* --ACTIVIDAD 16-- 
+		
+		String contraseña="holaprofe";
+		  
+        final int attempts = 3;
+        
+    
+        boolean acertaste=false;
+ 
+        String contra;
+        for (int i=0; i < 3 && !acertaste; i++){
+            contra=JOptionPane.showInputDialog("Intenta poner la contraseña");
+ 
+            if (contra.equals (contraseña)){
+            	
+                System.out.println("Contraseña correcta");
+                
+                acertaste=true;
+            }
+        }
+		
+	}*/
+		
+		
+		/* -- ACTIVIDAD 17 --
+		
+		
+		String Day=JOptionPane.showInputDialog("Que dia de la semana es");
+		 
+		switch(Day){
+			case "Lunes":
+				
+			case "Martes":
+				
+			case "Miercoles":
+				
+			case "Jueves":
+				
+			case "Viernes":
+				
+				System.out.println("Anda a laburar flaco");
+				
+				break;
+				
+			case "Sabado":
+				
+			case "Domingo":
+				System.out.println("Dale quedate jugando a la compu");
+				
+			default:
+				
+				System.out.println("Que dia de la semana es");
+		}
+	} */
+		
+		
+		/* --ACTIVIDAD 18-- 
+		String n1 = JOptionPane.showInputDialog("Cual es el primer numero");
+		
+		int num1 = Integer.parseInt(n1);
+ 
+		String n2 = JOptionPane.showInputDialog("Cual es el segundo numero");
+		
+		int num2 = Integer.parseInt(n2);
+ 
+		for (int i=0; i <10; i++){
+			
+			int random = (int) Math.floor(Math.random() * (num1-num2) + num2);
+			
+			System.out.println(random); 
+		}
 	}
+		*/
+		
+		
 
 }
